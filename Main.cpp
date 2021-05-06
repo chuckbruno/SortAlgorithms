@@ -196,10 +196,10 @@ int main() {
 	}
 
 	renderBars(bars, numCount, window);
-	std::thread sort(&bubbleSort, numbers, numCount);
+	//std::thread sort(&bubbleSort, numbers, numCount);
 	//std::thread sort(&quickSort, numbers, 0, numCount - 1);
 	//std::thread sort(&mergeSort, numbers, 0, numCount - 1);
-	//std::thread sort(&insertionSort, numbers, numCount);
+	std::thread sort(&insertionSort, numbers, numCount);
 
 	sf::Event event;
 	while (window.isOpen()) {
