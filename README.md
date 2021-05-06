@@ -1,4 +1,4 @@
-##Sort Algorithms
+# Sort Algorithms
 - bubbleSort
 ![bubbleSort](https://github.com/chuckbruno/SortAlgorithms/blob/main/res/bubbleSort.gif)
 - quickSort
